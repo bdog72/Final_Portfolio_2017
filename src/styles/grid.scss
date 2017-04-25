@@ -30,6 +30,23 @@
   grid-area: header;
   border: 5px solid white;
   background-color: #97babf;
+
+  h1 {
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  }
 }
 
 .sidebarL {
@@ -37,12 +54,18 @@
   border: 1px solid white;
   background-color: #647c7f;
 
+  p {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+  }
+
   ul {
     list-style-type: none;
   }
 
   ul li {
-    padding: 20px;
+    padding: 10px;
   }
 
   .skills1 {
@@ -64,12 +87,31 @@
 .content {
   grid-area: content;
   border: 5px solid white;
+
+  h2 {
+    color: white;
+    text-align: center;
+  }
+
+  .tweet {
+    display: flex;
+    justify-content: center;
+  }
+
+  .git {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .sidebarR {
   grid-area: sidebarR;
   border: 1px solid white;
   background-color: #647c7f;
+
+  h2 {
+    color: white;
+  }
 
   .entities {
     font-size: 10em;
@@ -88,6 +130,6 @@
 
   h2 {
     text-align: center;
-    font-size: 2vw;
+    font-size: 30px;
   }
 }

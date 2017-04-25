@@ -26,7 +26,9 @@ export default class App extends Component {
     return <div className='wrapper'>
       <div className='box header'>
         <h1>{this.state.name}</h1>
-        <Image src={this.state.imageURL} responsive circle />
+        <div className='image'>
+          <Image src={this.state.imageURL} responsive circle />
+        </div>
         <p>{this.state.bio}</p>
         <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
       </div>
@@ -46,13 +48,18 @@ export default class App extends Component {
         </ul>
       </div>
       <div className='box content'>
-        <a href='https://twitter.com/Bdoggy72'>
-          <Image src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' responsive />
-        </a>
-        <p>My Current GitHub Chart</p>
-        <a href='https://github.com/bdog72'>
-          <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
-        </a>
+        <h2>Follow Me On Twitter</h2>
+        <div className='tweet'>
+          <a href='https://twitter.com/Bdoggy72'>
+            <Image src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' responsive />
+          </a>
+        </div>
+        <h2>My Current GitHub Chart</h2>
+        <div className='git'>
+          <a href='https://github.com/bdog72'>
+            <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
+          </a>
+        </div>
       </div>
       <div className='sidebarR'>
         <h2>React Router</h2>
