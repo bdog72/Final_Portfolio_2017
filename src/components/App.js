@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Rrouter from './Rrouter'
+import Grid from './Grid'
 import { Image } from 'react-bootstrap'
 import '../styles/grid.scss'
 
@@ -60,6 +61,7 @@ export default class App extends Component {
             <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
           </a>
         </div>
+        <Grid />
       </div>
       <div className='sidebarR'>
         <h2>React Router</h2>
