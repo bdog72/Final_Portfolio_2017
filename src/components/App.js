@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Rrouter from './Rrouter'
 import { Image } from 'react-bootstrap'
 import '../styles/grid.scss'
 
@@ -42,7 +43,7 @@ export default class App extends Component {
         </a>
       </div>
       <div className='sidebarR'>
-        Sidebar-right
+        <Rrouter />
       </div>
       <div className='box footer'>
         <p>813-505-4733</p>
