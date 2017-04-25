@@ -31,7 +31,19 @@ export default class App extends Component {
         <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
       </div>
       <div className='box sidebarL'>
-        Sidebar-left
+        <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p>
+        <ul className='skills1'>
+          <li><img src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' alt='' /></li>
+          <li><img src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' alt='' /></li>
+        </ul>
+        <ul className='skills2'>
+          <li><img src='https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/boostrap-128.png' responsive /></li>
+          <li><img src='https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-128.png' alt='' responsive /></li>
+        </ul>
+        <ul className='skills3'>
+          <li><img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' alt='' /></li>
+          <li><img src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' /></li>
+        </ul>
       </div>
       <div className='box content'>
         <a href='https://twitter.com/Bdoggy72'>
@@ -43,12 +55,13 @@ export default class App extends Component {
         </a>
       </div>
       <div className='sidebarR'>
+        <h2>React Router</h2>
         <Rrouter />
       </div>
       <div className='box footer'>
-        <p>813-505-4733</p>
-        <p>high5bri&#64;hotmail.com</p>
-        <p>Made With &hearts; From What I Learned At The Iron Yard</p>
+        <h2>813-505-4733</h2>
+        <h2>high5bri&#64;hotmail.com</h2>
+        <h2>Made With &hearts; From What I Learned At The Iron Yard</h2>
       </div>
     </div>
   }

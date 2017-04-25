@@ -4,22 +4,22 @@ export default class Rrouter extends Component {
   render () {
     const Ex1 = () => (
       <div>
-        <h2>&spades;</h2>
+        <h2 className='entities'>&spades;</h2>
       </div>
     )
     const Ex2 = () => (
       <div>
-        <h2>&clubs;</h2>
+        <h2 className='entities'>&clubs;</h2>
       </div>
     )
     const Ex3 = () => (
       <div>
-        <h2>&hearts;</h2>
+        <h2 className='entities'>&hearts;</h2>
       </div>
     )
     const Ex4 = () => (
       <div>
-        <h2>&diams;</h2>
+        <h2 className='entities'>&diams;</h2>
       </div>
     )
 
@@ -27,10 +27,10 @@ export default class Rrouter extends Component {
       <Router>
         <div>
           <ul>
-            <li><Link to='/'><h2>SPADES</h2></Link></li>
-            <li><Link to='/example2'><h2>CLUBS</h2></Link></li>
-            <li><Link to='/example3'><h2>HEARTS</h2></Link></li>
-            <li><Link to='/example4'><h2>DIAMONDS</h2></Link></li>
+            <li><Link to='/'><h2 className='entities1'>SPADES</h2></Link></li>
+            <li><Link to='/example2'><h2 className='entities1'>CLUBS</h2></Link></li>
+            <li><Link to='/example3'><h2 className='entities1'>HEARTS</h2></Link></li>
+            <li><Link to='/example4'><h2 className='entities1'>DIAMONDS</h2></Link></li>
           </ul>
           <hr />
           <Route exact path='/' component={Ex1} />
