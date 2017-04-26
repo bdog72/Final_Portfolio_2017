@@ -35,16 +35,16 @@ export default class App extends Component {
       <div className='box sidebarL'>
         <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p>
         <ul className='skills1'>
-          <li><img src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' alt='' /></li>
-          <li><img src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' alt='' /></li>
+          <li><img src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' height='100' width='100' /></li>
+          <li><img src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' height='100' width='100' /></li>
         </ul>
         <ul className='skills2'>
-          <li><img src='https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/boostrap-128.png' responsive /></li>
-          <li><img src='https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-128.png' alt='' responsive /></li>
+          <li><img src='https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/boostrap-128.png' height='100' width='100' /></li>
+          <li><img src='https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-128.png' height='100' width='100' /></li>
         </ul>
         <ul className='skills3'>
-          <li><img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' alt='' /></li>
-          <li><img src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' /></li>
+          <li><img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' height='100' width='100' /></li>
+          <li><img src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' height='100' width='100' /></li>
         </ul>
       </div>
       <div className='box content'>
