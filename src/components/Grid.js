@@ -53,12 +53,9 @@ export default class Rrouter extends Component {
 
     const CssGrid1 = () => (
       <div className='wrapper2'>
-        <div className='box1 1a'>A</div>
-        <div className='box1 1b'>B</div>
-        <div className='box1 1c'>C</div>
-        <div className='box1 1d'>D</div>
-        <div className='box1 1e'>E</div>
-        <div className='box1 1f'>F</div>
+        <div className='box1 header1'>Header</div>
+        <div className='box1 sidebar'>Side</div>
+        <div className='box1 content1'>Content</div>
       </div>
     )
 
