@@ -48,10 +48,13 @@ export default class App extends Component {
         </ul>
       </div>
       <div className='box content'>
-        <h2>Follow Me On Twitter</h2>
+        {/* <h2>Follow Me On Twitter</h2> */}
         <div className='tweet'>
           <a href='https://twitter.com/Bdoggy72'>
             <Image src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' responsive />
+          </a>
+          <a href='https://www.linkedin.com/'>
+            <Image src='http://www.clipartkid.com/images/55/linkedin-512-icons-free-icons-in-social-media-icons-1-icon-search-147AkA-clipart.png' height='200' width='200' responsive />
           </a>
         </div>
         <h2>My Current GitHub Chart</h2>
