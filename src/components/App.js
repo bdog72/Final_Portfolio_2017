@@ -59,7 +59,7 @@ export default class App extends Component {
               <Image src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' responsive />
             </a>
           </div>
-          <a href='https://www.linkedin.com/'>
+          <a href='https://www.linkedin.com/feed/'>
             <Image src='http://www.clipartkid.com/images/55/linkedin-512-icons-free-icons-in-social-media-icons-1-icon-search-147AkA-clipart.png' height='200' width='200' responsive />
           </a>
         </div>
