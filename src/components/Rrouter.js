@@ -14,7 +14,7 @@ export default class Rrouter extends Component {
     )
     const Ex3 = () => (
       <div>
-        <h2 className='entities'>&hearts;</h2>
+        <h2 className='entities2'>&hearts;</h2>
       </div>
     )
     const Ex4 = () => (
