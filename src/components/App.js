@@ -33,7 +33,11 @@ export default class App extends Component {
         <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
       </div>
       <div className='box sidebarL'>
-        <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p>
+        {/* <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p> */}
+        <p>Some Of The Skills I Learned At</p>
+        <div className='ironYard'>
+          <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' />
+        </div>
         <ul className='skills1'>
           <li><img src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' height='100' width='100' /></li>
           <li><img src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' height='100' width='100' /></li>
