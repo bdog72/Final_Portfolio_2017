@@ -75,8 +75,10 @@ export default class App extends Component {
         <Rrouter />
       </div>
       <div className='box footer'>
-        <h2>813-505-4733</h2>
-        <h2>high5bri&#64;hotmail.com</h2>
+        <div className='foot1'>
+          <h2>813-505-4733</h2>
+          <h2>high5bri&#64;hotmail.com</h2>
+        </div>
         <h2>Made With &hearts; From What I Learned At The Iron Yard</h2>
       </div>
     </div>
