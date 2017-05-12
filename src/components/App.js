@@ -34,11 +34,11 @@ export default class App extends Component {
       </div>
       <div className='box sidebarL'>
         {/* <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p> */}
-        <p>Some Of The Skills I Learned At</p>
+        <p>Some Of The Skills <br />I Learned At</p>
         <div className='ironYard'>
           <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' />
         </div>
-        <ul className='skills1'>
+        {/* <ul className='skills1'>
           <li><img src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' height='100' width='100' /></li>
           <li><img src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' height='100' width='100' /></li>
         </ul>
@@ -49,7 +49,19 @@ export default class App extends Component {
         <ul className='skills3'>
           <li><img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' height='100' width='100' /></li>
           <li><img src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' height='100' width='100' /></li>
-        </ul>
+        </ul> */}
+        <div className='skills1'>
+          <img src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' height='100' width='100' />
+          <img src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' height='100' width='100' />
+        </div>
+        <div className='skills2'>
+          <img src='https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/boostrap-128.png' height='100' width='100' />
+          <img src='https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-128.png' height='100' width='100' />
+        </div>
+        <div className='skills3'>
+          <img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' height='100' width='100' />
+          <img src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' height='100' width='100' />
+        </div>
       </div>
       <div className='box content'>
         {/* <h2>Follow Me On Twitter</h2> */}
