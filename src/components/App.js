@@ -64,7 +64,7 @@ export default class App extends Component {
         </div>
       </div>
       <div className='box content'>
-        {/* <h2>Follow Me On Twitter</h2> */}
+        <h2>Follow Me On Twitter and Linkedin</h2>
         <div className='tweet'>
           <div className='tweet1'>
             <a href='https://twitter.com/Bdoggy72'>
