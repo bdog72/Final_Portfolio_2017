@@ -72,7 +72,7 @@ export default class App extends Component {
             </a>
           </div>
           <a href='https://www.linkedin.com/feed/'>
-            <Image src='http://www.clipartkid.com/images/55/linkedin-512-icons-free-icons-in-social-media-icons-1-icon-search-147AkA-clipart.png' height='200' width='200' responsive />
+            <Image src='https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-256.png' height='150' width='150' responsive />
           </a>
         </div>
         <h2>My Current GitHub Chart</h2>
