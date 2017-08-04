@@ -68,7 +68,7 @@ export default class App extends Component {
         <div className='tweet'>
           <div className='tweet1'>
             <a href='https://twitter.com/Bdoggy72'>
-              <Image src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' responsive />
+              <Image src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' height='150' width='150' responsive />
             </a>
           </div>
           <a href='https://www.linkedin.com/feed/'>
