@@ -31,9 +31,12 @@
   background-color: #97babf;
 
   h1 {
-    font-size: 90px;
+    // font-size: 90px;
+    font-size: 8vw;
     text-align: center;
-    font-family: 'Passion One', cursive;
+    // font-family: 'Passion One', cursive;
+    // font-family: 'Bangers', cursive;
+    font-family: 'Itim', cursive;
   }
 
   .image {
@@ -47,6 +50,10 @@
     padding: 5px;
     margin: 10px;
   }
+}
+
+.bio {
+  font-family: 'Bangers', cursive;
 }
 
 .sidebarL {

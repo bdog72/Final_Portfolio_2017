@@ -29,8 +29,8 @@ export default class App extends Component {
         <div className='image'>
           <Image src={this.state.imageURL} responsive circle />
         </div>
-        <p>{this.state.bio}</p>
-        <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
+        <p className='bio'>{this.state.bio}</p>
+        <p className='bio'>I'm a Jr. Front End Engineer in {this.state.location}</p>
       </div>
       <div className='box sidebarL'>
         {/* <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p> */}
