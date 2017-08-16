@@ -31,11 +31,8 @@
   background-color: #97babf;
 
   h1 {
-    // font-size: 90px;
     font-size: 8vw;
     text-align: center;
-    // font-family: 'Passion One', cursive;
-    // font-family: 'Bangers', cursive;
     font-family: 'Itim', cursive;
   }
 
@@ -101,6 +98,10 @@
   }
 }
 
+.twit {
+  font-family: 'Bree Serif', serif;
+}
+
 .content {
   grid-area: content;
   border: 5px solid white;
@@ -114,12 +115,7 @@
     display: flex;
     justify-content: space-around;
     padding: 15px;
-    // align-items: center;
   }
-
-  // .tweet1 {
-  //   padding-top: 25px;
-  // }
 
   .git {
     display: flex;
@@ -143,7 +139,6 @@
     font-size: 10em;
     text-align: center;
     color: black;
-    // margin-top: 50px;
   }
 
   .entities1 {
