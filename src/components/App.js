@@ -81,7 +81,7 @@ export default class App extends Component {
             <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
           </a>
         </div>
-        <h3 style={{ textAlign: 'center', color: 'white' }}>Click on my chart to visit my GitHub page</h3>
+        <h2 style={{ textAlign: 'center', color: 'white' }}>Click on my chart to visit my GitHub page</h2>
       </div>
       <div className='sidebarR'>
         <h2>React Router</h2>
