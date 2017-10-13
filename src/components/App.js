@@ -34,7 +34,7 @@ export default class App extends Component {
       </div>
       <div className='box sidebarL'>
         {/* <p>Some Of The Skills I Learned At <br /> <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' alt='' /></p> */}
-        <p>Some Of The Skills <br />I Learned At</p>
+        <p>Skills <br />I Learned At</p>
         <div className='ironYard'>
           <img src='https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg' />
         </div>
